@@ -14,9 +14,9 @@ export const Language = () => {
             </div>
 
             <div className={'language__icons'}>
-                <img src={Images.armenian} alt="armenian" onClick={() => navigate('/catalogs/am')}/>
-                <img src={Images.russian} alt="russian" onClick={() => navigate('/catalogs/ru')}/>
-                <img src={Images.english} alt="english" onClick={() => navigate('/catalogs/en')}/>
+                <img src={Images.armenian} alt="armenian" onClick={() => navigate('/nurDemo/catalogs/am')}/>
+                <img src={Images.russian} alt="russian" onClick={() => navigate('/nurDemo/catalogs/ru')}/>
+                <img src={Images.english} alt="english" onClick={() => navigate('/nurDemo/catalogs/en')}/>
             </div>
 
             <img className={'decor'} src={Images.logo} alt="logo"/>

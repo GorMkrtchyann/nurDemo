@@ -13,14 +13,14 @@ export const Menu = () => {
     return(
         <div className={"menu"}>
             <div className={'container'}>
-                <div className={'logo'} onClick={() => navigate('/')}>
+                <div className={'logo'} onClick={() => navigate('/nurDemo/')}>
                     <img src={Images.logo} alt="logo"/>
                     <p>Նուռ / Nur</p>
                 </div>
                 {
                     gridShow && <Grid/>
                 }
-                <LanguageIcon onClick={() => navigate('/')}/>
+                <LanguageIcon onClick={() => navigate('/nurDemo/')}/>
             </div>
         </div>
     )
